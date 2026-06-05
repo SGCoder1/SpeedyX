@@ -9,7 +9,7 @@ url: https://supraset.github.io
 callouts:
   warning:
     title: Warning
-    color: yellow-300
+    color: yellow
 
   caution:
     title: Caution
