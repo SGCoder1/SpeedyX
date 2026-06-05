@@ -51,6 +51,7 @@ layout: default
 | B3       | 0x08   | 2 bytes     | 4 bytes     |
 
 ### Special
+
 | Register | Full Name           | Opcode | 16-bit Size | 32-bit Size | Priviledge Required? |
 | ----     |-----                |-----   | -------     | -------     | -------------------  |
 | SO       | System Operation    | 0x19   | 2 bytes     | 2 bytes     | No                   |
