@@ -46,8 +46,6 @@ label1:
 ; if condition satifies, a1 should be 1
 ```
 
-<br/>
-
 JNQ: Similar format to JEQ, just its counterpart. See [CMP](cmp.md) for more info.
 ```
 ; da reversed logic
@@ -63,8 +61,6 @@ label1:
 ; if condition satisfies, a1 should be 1
 ```
 
-<br/>
-
 JLS: Only jumps if FLAGS has the less than flag. See [CMP](cmp.md) for more info.
 ```
 cmp b6, 28
@@ -77,8 +73,6 @@ mv a1, 1
 label1:
 ; if condition satisfies, a1 should be 1
 ```
-
-<br/>
 
 JGT: Similar format to JLS, just its counterpart. See [CMP](cmp.md) for more info.
 ```
@@ -115,12 +109,12 @@ foo:
 
 ```
 
-<br/>
-
 RET: Takes the address of the return address and jumps to it.
 
 {: .warning }
 Only use this at the end of a function label. I'll let you figure out what happens. See [Bad Examples](###bad-examples) for more info.
+
+<br/>
 
 ### Bad Examples
 CALL:
