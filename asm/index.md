@@ -4,3 +4,4 @@ layout: default
 ---
 
 Welcome to the Speedy-X documentation.
+
