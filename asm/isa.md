@@ -9,31 +9,31 @@ layout: default
 - Count: 27 instructions | 34 registers
 
 ## Instructions
-**0x01: [MV]({% link mne/mv.md %})**  
-**0x02: [MVP]({% link mne/mv.md %})**  
-**0x03: [ADD]({% link mne/arith.md %})**  
-**0x04: [SUB]({% link mne/arith.md %})**  
-**0x05: [MUL]({% link mne/arith.md %})**  
-**0x06: [DIV]({% link mne/arith.md %})**  
-**0x07: [MOD]({% link mne/arith.md %})**  
-**0x08: [JMP]({% link mne/jmps.md %})**  
-**0x09: [JEQ]({% link mne/jmps.md %})**  
-**0x0A: [JNQ]({% link mne/jmps.md %})**  
-**0x0B: [JLS]({% link mne/jmps.md %})**  
-**0x0C: [JGT]({% link mne/jmps.md %})**  
-**0x0D: [CALL]({% link mne/jmps.md %})**  
-**0x0E: [RET]({% link mne/jmps.md %})**   
-**0x0F: [PUSH]({% link mne/stack.md %})**  
-**0x10: [POP]({% link mne/stack.md %})**  
-**0x11: [CMP]({% link mne/cmp.md %})**  
-**0x12: [AND]({% link mne/bitmp.md %})**  
-**0x13: [OR]({% link mne/bitmp.md %})**  
-**0x14: [XOR]({% link mne/bitmp.md %})**  
-**0x15: [LSH]({% link mne/bitmp.md %})**  
-**0x16: [RSH]({% link mne/bitmp.md %})**  
-**0x17: [HLT]({% link mne/hlt.md %})**  
-**0x18: [BRK]({% link mne/brk.md %})**  
-**0x19: [BV]({% link mne/bv.md %})**  
+**0x01: [MV]({% link asm/mne/mv.md %})**  
+**0x02: [MVP]({% link asm/mne/mv.md %})**  
+**0x03: [ADD]({% link asm/mne/arith.md %})**  
+**0x04: [SUB]({% link asm/mne/arith.md %})**  
+**0x05: [MUL]({% link asm/mne/arith.md %})**  
+**0x06: [DIV]({% link asm/mne/arith.md %})**  
+**0x07: [MOD]({% link asm/mne/arith.md %})**  
+**0x08: [JMP]({% link asm/mne/jmps.md %})**  
+**0x09: [JEQ]({% link asm/mne/jmps.md %})**  
+**0x0A: [JNQ]({% link asm/mne/jmps.md %})**  
+**0x0B: [JLS]({% link asm/mne/jmps.md %})**  
+**0x0C: [JGT]({% link asm/mne/jmps.md %})**  
+**0x0D: [CALL]({% link asm/mne/jmps.md %})**  
+**0x0E: [RET]({% link asm/mne/jmps.md %})**   
+**0x0F: [PUSH]({% link asm/mne/stack.md %})**  
+**0x10: [POP]({% link asm/mne/stack.md %})**  
+**0x11: [CMP]({% link asm/mne/cmp.md %})**  
+**0x12: [AND]({% link asm/mne/binmp.md %})**  
+**0x13: [OR]({% link asm/mne/binmp.md %})**  
+**0x14: [XOR]({% link asm/mne/binmp.md %})**  
+**0x15: [LSH]({% link asm/mne/binmp.md %})**  
+**0x16: [RSH]({% link asm/mne/binmp.md %})**  
+**0x17: [HLT]({% link asm/mne/hlt.md %})**  
+**0x18: [BRK]({% link asm/mne/brk.md %})**  
+**0x19: [BV]({% link asm/mne/bv.md %})**  
 
 ## Registers
 
