@@ -53,11 +53,11 @@ layout: default
 ### Special
 | Register | Full Name           | Opcode | 16-bit Size | 32-bit Size | Priviledge Required? |
 | ----     |-----                |-----   | -------     | -------     | -------------------  |
-| SO       | System Operation    | 0x19   | 2 bytes     | 2 bytes     | No
-| ST       | Screen Output Type  | 0x1A   | 2 bytes     | 2 bytes     | No
-| SV       | Screen Output Value | 0x1B   | 2 bytes     | 2 bytes     | No
-| SF       | System Function     | 0x1C   | 2 bytes     | 4 bytes     | Yes
-| FB	   | Fault Base          | 0x1D   | 2 bytes     | 4 bytes     | Yes
-| FC       | Fault Code          | 0x1E   | 2 bytes     | 4 bytes     | No
-| PC       | Program Counter     | 0x1F   | 2 bytes     | 4 bytes     | No (readonly)
-| CI       | Current Instruction | 0x20   | 2 bytes     | 4 bytes     | No (readonly)
+| SO       | System Operation    | 0x19   | 2 bytes     | 2 bytes     | No                   |
+| ST       | Screen Output Type  | 0x1A   | 2 bytes     | 2 bytes     | No                   |
+| SV       | Screen Output Value | 0x1B   | 2 bytes     | 2 bytes     | No                   |
+| SF       | System Function     | 0x1C   | 2 bytes     | 4 bytes     | Yes                  |
+| FB	   | Fault Base          | 0x1D   | 2 bytes     | 4 bytes     | Yes                  |
+| FC       | Fault Code          | 0x1E   | 2 bytes     | 4 bytes     | No                   |
+| PC       | Program Counter     | 0x1F   | 2 bytes     | 4 bytes     | No (readonly)        |
+| CI       | Current Instruction | 0x20   | 2 bytes     | 4 bytes     | No (readonly)        |
