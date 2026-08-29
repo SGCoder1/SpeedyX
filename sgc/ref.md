@@ -8,7 +8,7 @@ layout: default
 Learn everything about the language here.
 
 
-<div class="card">
+<div class="doc-card">
 
 ## Language Reference
 [SGCode Keywords]()  
@@ -17,7 +17,7 @@ Learn everything about the language here.
 
 </div>
 
-<div class="card">
+<div class="doc-card">
 
 ## Getting Started
 [Downloads]()  
