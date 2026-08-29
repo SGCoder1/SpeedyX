@@ -1,6 +1,6 @@
 title: Just the Docs Template
 description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+remote_theme: manvirdevs/jekyll-theme-fluent-docs
 nav_enabled: true
 enable_copy_code_button: true
 
