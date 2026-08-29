@@ -15,8 +15,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
-          bundler-cache: false  # Disable cache to allow fresh resolve
-      - name: Bundle Install
-        run: bundle install
+          bundler-cache: true
+          cache-version: 0
       - name: Build with Jekyll
         run: bundle exec jekyll build

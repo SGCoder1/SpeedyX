@@ -8,9 +8,6 @@ layout: default
 Mnemonic: `MV`  
 Opcode: `0x01`
 
-Mnemonic: `MVP`  
-Opcode: `0x02`
-
 ## Syntax
 ```
 mv [reg/mem], [reg/mem/imm8/imm16]
@@ -39,25 +36,11 @@ mv [a1 + 4], a2
 ```
 
 <br/>
-<br/>
-
-### Previlege Examples
-{: .warning }
-`MVP` is an experimental instruction and is subject to change. In the best case, avoid using this instruction.
-
-```
-mvp sf, 0x5000
-```
-
-```
-mvp fb, 0x4000
-```
-
 
 {: .caution }
-Speedy-X does not support memory-to-memory or immediate-to-displacement instructions. Also, the `MV` instruction cannot access previleged registers.
+Speedy-X does not support memory-to-memory or immediate-to-displacement instructions.
 
-### Invalid
+### Bad Examples
 ```
 mv [0x50], [p0 + 3]
 ```

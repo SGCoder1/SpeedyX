@@ -6,19 +6,19 @@ layout: default
 
 # Arithmetic Instructions
 Mnemonic: `ADD`  
-Opcode: `0x03`
+Opcode: `0x02`
 
 Mnemonic: `SUB`  
-Opcode: `0x04`
+Opcode: `0x03`
 
 Mnemonic: `MUL`  
-Opcode: `0x05`
+Opcode: `0x04`
  
 Mnemonic: `DIV`  
-Opcode: `0x06`
+Opcode: `0x05`
 
 Mnemonic: `MOD`  
-Opcode: `0x07`
+Opcode: `0x06`
 
 ## Syntax
 This syntax applies to all of them.

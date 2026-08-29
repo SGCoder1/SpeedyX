@@ -6,7 +6,7 @@ layout: default
 
 # Break Instruction
 Mnemonic: `BRK`  
-Opcode: `0x18`
+Opcode: `0x19`
 
 ## Syntax
 ```

@@ -6,7 +6,7 @@ layout: default
 
 # Bank Value Instruction
 Mnemonic: `BV`  
-Opcode: `0x19`  
+Opcode: `0x1A`  
 Description: Banks a 64 KB memory chunk from a base.
 
 ## Syntax

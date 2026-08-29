@@ -6,34 +6,36 @@ layout: default
 
 # Instruction Set
 - This specifies the instruction set for BOTH the 16-bit and 32-bit architectures. The 16-bit only segments will be specified.
-- Count: 27 instructions | 34 registers
+- Count: 27 instructions | 32 registers
 
 ## Instructions
 **0x01: [MV]({% link asm/mne/mv.md %})**  
-**0x02: [MVP]({% link asm/mne/mv.md %})**  
-**0x03: [ADD]({% link asm/mne/arith.md %})**  
-**0x04: [SUB]({% link asm/mne/arith.md %})**  
-**0x05: [MUL]({% link asm/mne/arith.md %})**  
-**0x06: [DIV]({% link asm/mne/arith.md %})**  
-**0x07: [MOD]({% link asm/mne/arith.md %})**  
-**0x08: [JMP]({% link asm/mne/jmps.md %})**  
-**0x09: [JEQ]({% link asm/mne/jmps.md %})**  
-**0x0A: [JNQ]({% link asm/mne/jmps.md %})**  
-**0x0B: [JLS]({% link asm/mne/jmps.md %})**  
-**0x0C: [JGT]({% link asm/mne/jmps.md %})**  
-**0x0D: [CALL]({% link asm/mne/jmps.md %})**  
-**0x0E: [RET]({% link asm/mne/jmps.md %})**   
-**0x0F: [PUSH]({% link asm/mne/stack.md %})**  
-**0x10: [POP]({% link asm/mne/stack.md %})**  
-**0x11: [CMP]({% link asm/mne/cmp.md %})**  
-**0x12: [AND]({% link asm/mne/binmp.md %})**  
-**0x13: [OR]({% link asm/mne/binmp.md %})**  
-**0x14: [XOR]({% link asm/mne/binmp.md %})**  
-**0x15: [LSH]({% link asm/mne/binmp.md %})**  
-**0x16: [RSH]({% link asm/mne/binmp.md %})**  
-**0x17: [HLT]({% link asm/mne/hlt.md %})**  
-**0x18: [BRK]({% link asm/mne/brk.md %})**  
-**0x19: [BV]({% link asm/mne/bv.md %})**  
+**0x02: [ADD]({% link asm/mne/arith.md %})**  
+**0x03: [SUB]({% link asm/mne/arith.md %})**  
+**0x04: [MUL]({% link asm/mne/arith.md %})**  
+**0x05: [DIV]({% link asm/mne/arith.md %})**  
+**0x06: [MOD]({% link asm/mne/arith.md %})**  
+**0x07: [JMP]({% link asm/mne/jmps.md %})**  
+**0x08: [JEQ]({% link asm/mne/jmps.md %})**  
+**0x09: [JNQ]({% link asm/mne/jmps.md %})**  
+**0x0A: [JLS]({% link asm/mne/jmps.md %})**  
+**0x0B: [JGT]({% link asm/mne/jmps.md %})**  
+**0x0C: [CALL]({% link asm/mne/jmps.md %})**  
+**0x0D: [RET]({% link asm/mne/jmps.md %})**   
+**0x0E: [PUSH]({% link asm/mne/stack.md %})**  
+**0x0F: [POP]({% link asm/mne/stack.md %})**  
+**0x10: [CMP]({% link asm/mne/cmp.md %})**  
+**0x11: [AND]({% link asm/mne/binmp.md %})**  
+**0x12: [OR]({% link asm/mne/binmp.md %})**  
+**0x13: [XOR]({% link asm/mne/binmp.md %})**  
+**0x14: [LSH]({% link asm/mne/binmp.md %})**  
+**0x15: [RSH]({% link asm/mne/binmp.md %})** 
+**0x16: [HLT]({% link asm/mne/hlt.md %})**  
+**0x17: [WRFLTB]({% link asm/mne/wrtsys.md %})**  
+**0x18: [WRSYSF]({% link asm/mne/wrtsys.md %})**  
+**0x19: [BRK]({% link asm/mne/brk.md %})**  
+**0x1A: [BV]({% link asm/mne/bv.md %})** _(16-bit only)_  
+**0x55: [SYSEXEC]({% link asm/mne/sysexec.md %})**
 
 ## Registers
 
@@ -59,6 +61,6 @@ layout: default
 | SV       | Screen Output Value | 0x1B   | 2 bytes     | 2 bytes     | No                   |
 | SF       | System Function     | 0x1C   | 2 bytes     | 4 bytes     | Yes                  |
 | FB	   | Fault Base          | 0x1D   | 2 bytes     | 4 bytes     | Yes                  |
-| FC       | Fault Code          | 0x1E   | 2 bytes     | 4 bytes     | No                   |
+| FC       | Fault Code          | 0x1E   | 2 bytes     | 4 bytes     | No (readonly)        |
 | PC       | Program Counter     | 0x1F   | 2 bytes     | 4 bytes     | No (readonly)        |
 | CI       | Current Instruction | 0x20   | 2 bytes     | 4 bytes     | No (readonly)        |

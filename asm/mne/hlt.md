@@ -4,9 +4,9 @@ parent: Architecture
 layout: default
 ---
 
-# Move Value Instruction
+# Halt Instruction
 Mnemonic: `HLT`  
-Opcode: `0x17`
+Opcode: `0x16`
 
 ## Syntax
 ```
