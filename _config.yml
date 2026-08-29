@@ -4,6 +4,9 @@ theme: just-the-docs
 nav_enabled: true
 enable_copy_code_button: true
 
+kramdown:
+  parse_block_html: true
+
 url: https://supraset.github.io
 
 callouts:

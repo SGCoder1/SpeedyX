@@ -8,15 +8,19 @@ layout: default
 Learn everything about the language here.
 
 
-{: .doc-card }
+<div class="card">
 
 ## Language Reference
 [SGCode Keywords]()  
 [SGCode Types]()  
 [SGCode Operators]()
 
-{: .doc-card }
+</div>
+
+<div class="card">
 
 ## Getting Started
 [Downloads]()  
 [Changelog]()  
+
+</div>
