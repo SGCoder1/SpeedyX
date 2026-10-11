@@ -11,7 +11,10 @@ Learn everything about the language here.
 <div class="doc-card">
 
 ## Language Reference
-[SGCode Keywords]()  
+
+---
+
+[SGCode Keywords]({% link api-ref/keyword/index.md %})  
 [SGCode Types]()  
 [SGCode Operators]()
 
@@ -19,8 +22,11 @@ Learn everything about the language here.
 
 <div class="doc-card">
 
-## Getting Started
-[Downloads]()  
-[Changelog]()  
+## External APIs
+
+---
+
+[Firmware API]()  
+[C# Integration]()  
 
 </div>
