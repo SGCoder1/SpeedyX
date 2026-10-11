@@ -15,17 +15,17 @@ Primitive keywords, also be refrenced as primitive types, are the core keywords 
 or functions.
 
 Primitive keywords include: 
-[`null`]({% link keyword/primitive/null.md %}), 
-[`bool`]({% link keyword/primitive/bool.md %}), 
-[`byte`]({% link keyword/primitive/integers.md %}), 
-[`char`]({% link keyword/primitive/integers.md %}) and 
-[`int`]({% link keyword/primitive/integers.md %}).
+[`null`]({% link sgc/api-ref/keyword/primitive/null.md %}), 
+[`bool`]({% link sgc/api-ref/keyword/primitive/bool.md %}), 
+[`byte`]({% link sgc/api-ref/keyword/primitive/integers.md %}), 
+[`char`]({% link sgc/api-ref/keyword/primitive/integers.md %}) and 
+[`int`]({% link sgc/api-ref/keyword/primitive/integers.md %}).
 
 ### Modifiers
 Modifiers are keywords that control semantics of functions and variables.
 Modifers include: 
-[`public`]({% link keyword/modifier/access.md %}),
-[`private`]({% link keyword/modifier/access.md %}), 
-[`global`]({% link keyword/modifier/access.md %}), 
-[`extern`]({% link keyword/modifier/extern.md %}) and 
+[`public`]({% link sgc/api-ref/keyword/modifier/access.md %}),
+[`private`]({% link sgc/api-ref/keyword/modifier/access.md %}), 
+[`global`]({% link sgc/api-ref/keyword/modifier/access.md %}), 
+[`extern`]({% link sgc/api-ref/keyword/modifier/extern.md %}) and 
 [`static`]().

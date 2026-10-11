@@ -9,7 +9,7 @@ has_toc: false
 Welcome to the SGCode documentation. This language is based on C, C++ and C#, providing a familiar experience.
 
 ## Changelog
-View the release history [here]({% link changelog.md %}).
+View the release history [here]({% link sgc/changelog.md %}).
 
 ## Language Reference
-View the details of the language [here]({% link ref.md %}).
+View the details of the language [here]({% link sgc/ref.md %}).
