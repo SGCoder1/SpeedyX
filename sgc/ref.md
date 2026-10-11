@@ -14,7 +14,7 @@ Learn everything about the language here.
 
 ---
 
-[SGCode Keywords]({% sgc/link api-ref/keyword/index.md %})  
+[SGCode Keywords]({%link sgc/link api-ref/keyword/index.md %})  
 [SGCode Types]()  
 [SGCode Operators]()
 
